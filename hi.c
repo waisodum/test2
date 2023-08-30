@@ -5,5 +5,6 @@
 int a;
 scanf("%d",&a);
 printf("%hello",a);
+printf("salman lodu");
 return 0;
 }
