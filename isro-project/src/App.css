@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+/* .navheading{
+  font-size: 2.5rem;
+} */
+
+.navLi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  .navLi2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
