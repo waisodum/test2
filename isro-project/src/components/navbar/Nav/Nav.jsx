@@ -31,7 +31,7 @@ const Nav = ({show}) => {
       <ul className="ulStyle ">
         <li className='navLi2 navheading font-nunito'>
           {/* <CiShop className='text-3xl' /> */}
-          <img src="/images/logo.jpg" className='w-8 h-8' alt="" />
+          <img src="/images/logo.jpg" className='logo' alt="" />
         </li>
         <li className='navLi2 navheading font-nunito'>
           {/* <CiShop className='text-3xl' /> */}
