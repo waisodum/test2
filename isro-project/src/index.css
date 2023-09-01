@@ -6,9 +6,35 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("../public/images/background.jpeg");
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h3{
+  font-weight: 600;
+  color: #fff;
+}
+
+
+.c3-content{
+  display: flex;
+  padding: 1rem 4rem;
+  gap: 5rem;
+}
+
+.c3-content:last-child{
+flex-direction: row-reverse;
+}
+
+
+.c3-img-1{
+  width: 30rem;
+}
+
+.li1{
+  text-decoration: none;
+  font-size: 1.2rem;
 }

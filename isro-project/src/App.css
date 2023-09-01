@@ -12,7 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.c3 {
+  height: max-content;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -41,39 +43,136 @@
   font-size: 2.5rem;
 } */
 
-.navLi{
+.navLi {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  }
-  .navLi2{
+}
+.navLi2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  }
+}
 
-  .heading{
-    font-size: 10rem;
-    font-weight: 900;
-    color: #fff;
+.heading {
+  font-size: 7rem;
+  font-weight: 900;
+  color: #fff;
+}
 
-  }
+.heading-1 {
+  font-size: 6rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 6rem;
+}
 
-  .subHeading{
-    font-size: 5rem;
-    font-weight: 900;
-    color: #fff;
-  }
+.subHeading {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 4rem;
+  color: #fff;
+}
 
-  .c-main{
-    width: 100%;
-    height: 100vh;
-  }
+.c-main {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  padding: 0 2rem;
+}
 
-  .c-left{
+/* .c-left{
     width:50%;
     height:70vh;
+    text-align: start;
+  } */
 
-  }
+.c-img {
+  border-radius: 50%;
+  width: 30rem;
+  height: 30rem;
+}
+
+.earth {
+  width: 45rem;
+  height: 45rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10rem;
+  left: -10rem;
+  z-index: -3000;
+}
+
+.main-home {
+  width: 100%;
+  height: 100vh;
+}
+
+.cycle {
+  width: 30rem;
+  height: auto;
+  margin: 0 4rem;
+  border-radius: 2rem;
+}
+
+.cycle-div {
+  display: flex;
+}
+
+.cycle-content {
+  padding: 0 5rem;
+}
+
+.right-main {
+  display: flex;
+}
+
+.rocketLogo {
+  z-index: -2000;
+  /* position: absolute; */
+}
+
+.c-main {
+  background-image: url('../public/images/c3-Hero.png');
+  background-repeat: no-repeat;
+  /* width: 100vw; */
+  box-shadow: inset 10rem 0 10rem #000;
+  background-size: cover;
+}
+
+.c3-img {
+  width: 30rem;
+
+  border-radius: 4rem;
+}
+
+.c-main-1 {
+  background-image: url('../public/images/m.jpeg');
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  box-shadow: inset 10rem 0 10rem #000;
+  background-size: cover;
+  margin-top: 45px;
+}
+
+li {
+  text-decoration: none;
+  color: #fff;
+  text-decoration-line: none;
+}
+.m1{
+  padding-top: 5rem;
+}
+.c-main-2 {
+  background-image: url('../public/images/adi.jpg');
+  background-repeat: no-repeat;
+  box-shadow: inset 2rem 10rem  15rem #000;
+  width: 100vw;
+  height: 100vh;
+  /* box-shadow: inset 10rem 0 10rem #000; */
+  background-size: cover;
+  margin-top: 45px;
+}

@@ -1,13 +1,13 @@
 import React from 'react';
 import Nav from '../components/navbar/Nav/Nav';
 
-const Chandrayan3 = () => {
+const Mangal = () => {
   return (
     <>
-      <div className="c3">
-        <div className="c-main">
-          <div className="C-heading ">
-            <h1 className="heading">Chandrayaan-3</h1>
+      <div className="c3 m1">
+        <div className="c-main-1 ">
+          <div className="c-heading ">
+            <h1 className="heading">Mission-Mangal</h1>
           </div>
 
           {/* <div className="c-img">
@@ -17,10 +17,10 @@ const Chandrayan3 = () => {
         </div>
         <div className="c3-content">
           <div className="c3Left">
-            <img src="/images/c3-rocket.jpg" alt="" className="c3-img" />
+            <img src="/images/m-rocket.jpg" alt="" className="c3-img" />
           </div>
           <div className="c3Right">
-            <h1 className="subHeading">About LVM M4 Rocket</h1>
+            <h1 className="subHeading">About PSLV Rocket</h1>
             <h3>
               The Launch Vehicle Mark-3 or LVM3 (previously referred as the
               Geosynchronous Satellite Launch Vehicle Mark III or GSLV Mk III)[
@@ -45,12 +45,11 @@ const Chandrayan3 = () => {
         </div>
         <div className="c3-content">
           <div className="c3Left">
-            <img src="/images/c3-rover.jpeg" alt="" className="c3-img c3-img-1" />
+            <img src="/images/m-rover.jpeg" alt="" className="c3-img c3-img-1" />
           </div>
           <div className="c3Right">
             <h1 className="subHeading">
-              Smile, please! ISRO shares image of Chandrayaan-3 lander Vikram
-              captured by Pragyan rover
+              Rover for mangalyaan
             </h1>
             <h3>
               The Pragyan rover Wednesday morning clicked a photograph of the
@@ -70,4 +69,4 @@ const Chandrayan3 = () => {
   );
 };
 
-export default Chandrayan3;
+export default Mangal;

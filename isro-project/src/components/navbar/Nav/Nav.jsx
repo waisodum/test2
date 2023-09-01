@@ -6,6 +6,7 @@ import {
   CiShoppingCart,
 } from 'react-icons/ci';
 import {motion} from "framer-motion";
+import {Link} from "react-router-dom"
 // import SearchBox from '../SearchBox/SearchBox';
 import "./nav.css"
 // import { useParams,useLocation } from 'react-router-dom';
@@ -22,33 +23,48 @@ const Nav = ({show}) => {
 // class="{'home-page': $route.path === '/', 'other-page': $route.path !== '/'}"
   return (<>
     <motion.div initial={{ y: -100 }}
+  
     animate={{ y: 0 }}
+    style={{display:"flex",justifyContent:"center"}}
     transition={{
       duration: 0.5,
       delay: 0.5,
       ease: 'easeOut',
     }}>
       <ul className="ulStyle ">
+        
         <li className='navLi2 navheading font-nunito'>
           {/* <CiShop className='text-3xl' /> */}
           <img src="/images/logo.jpg" className='logo' alt="" />
         </li>
+
+        <Link to={"/"} className='navLi2 navheading font-nunito li1'>
         <li className='navLi2 navheading font-nunito'>
           {/* <CiShop className='text-3xl' /> */}
           <p className='text-base font-nunito'>Home</p>
         </li>
-        <li className='navLi2 navheading'>
-          {/* <CiHeart className='text-3xl'/> */}
-          <p className='text-base'>Favorite</p>
+        </Link>
+   
+        <Link to={"/mangal"} className='navLi2 navheading font-nunito li1'>
+        <li className='navLi2 navheading font-nunito'>
+          {/* <CiShop className='text-3xl' /> */}
+          <p className='text-base font-nunito'>Mangalyaan</p>
         </li>
-        <li className='navLi2 navheading'>
-          {/* <CiUser className='text-3xl'/> */}
-          <p className='text-base'>Chat</p>
+        </Link>
+        <Link to={"/chandrayaan3"} className='navLi2 navheading font-nunito li1'>
+        <li className='navLi2 navheading font-nunito'>
+          {/* <CiShop className='text-3xl' /> */}
+          <p className='text-base font-nunito'>Chandrayaan-3</p>
         </li>
-        <li className='navLi2 navheading'>
-          {/* <CiShoppingCart className='text-3xl' /> */}
-          <p className='text-base'>Cart</p>
+        </Link>
+        <Link to={"/active"} className='navLi2 navheading font-nunito li1'>
+        <li className='navLi2 navheading font-nunito'>
+          {/* <CiShop className='text-3xl' /> */}
+          <p className='text-base font-nunito'>Aditya L1</p>
         </li>
+        </Link>
+       
+       
         {/* <li className='navLi2 navheading'> */}
          
           

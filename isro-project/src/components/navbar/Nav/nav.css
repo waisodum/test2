@@ -27,6 +27,7 @@
     gap: 2rem;
     z-index: 1000;
     color: #fff;
+    position: absolute;
 }
 
 .ulStyle:first-child{
