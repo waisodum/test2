@@ -1,10 +1,10 @@
 import React from 'react';
-import {
-    CiShop,
-    CiHeart,
-  CiUser,
-  CiShoppingCart,
-} from 'react-icons/ci';
+// import {
+//     CiShop,
+//     CiHeart,
+//   CiUser,
+//   CiShoppingCart,
+// } from 'react-icons/ci';
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom"
 // import SearchBox from '../SearchBox/SearchBox';
@@ -63,6 +63,13 @@ const Nav = ({show}) => {
           <p className='text-base font-nunito'>Aditya L1</p>
         </li>
         </Link>
+        <Link to={"/labs"} className='navLi2 navheading font-nunito li1'>
+        <li className='navLi2 navheading font-nunito'>
+          {/* <CiShop className='text-3xl' /> */}
+          <p className='text-base font-nunito'>labs</p>
+        </li>
+        </Link>
+
        
        
         {/* <li className='navLi2 navheading'> */}

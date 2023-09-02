@@ -10,6 +10,7 @@ import Services from './pages/Services';
 import Chandrayan3 from './pages/Chandrayan3';
 import Mangal from './pages/Mangal';
 import Footer from './Footer';
+import Labs from './pages/labs';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/mangal" element={<Mangal />} />
           {/* <Route path="/" element={<Mangal />} /> */}
           <Route path="/active" element={<Activities />} />
+          <Route path="/labs" element={<Labs/>} />
 
           <Route path="*" element={<Error />} />
         </Routes>

@@ -7,7 +7,7 @@ const Aditya = () => {
   const eventDate = new Date('2023-09-02T11:50:00');
   const { seconds, minutes, hours, days } = useTimer({
     expiryTimestamp: eventDate,
-    onExpire: () => console.log('Event has occurred!'), // You can add your own logic here when the event expires
+    onExpire: () => console.log('Event has occurred!'),
   });
   return (
     <>
